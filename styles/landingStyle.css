@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+}
+#label{
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-bottom: 20px;
+ 
+}
+
+#heading {
+    padding-left: 10px;
+    color: rgb(172, 172, 172);
+    font-family: ubuntu_bold;
+    font-size: 45px;
+    text-align: left;
+}
+
+#row{
+    display: flex;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(172, 172, 172);
+    word-spacing: 3px;
+    letter-spacing: 0.4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p#init{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-align: start;
+    left: 10px;
+}
+
+.card{
+    width: 450px;
+    height: 620px;
+    background-color: rgb(20, 20, 20);
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.tag{
+    padding: 15px;
+    font-family: ubuntu_bold;
+    color: rgb(172, 172, 172);
+    font-size: 40px;
+    text-align: center;
+}
+.outerBound{
+    padding-top: 30px;
+    height: 250px;
+    width: 400px;
+    background-color: rgb(17, 17, 17);
+    position: relative;
+    left: 25px;  
+    margin-bottom:20px ;  
+}
+#outerBound2{
+    height: 100px;
+}
+
+#outerBound3{
+    height: 300px;
+}
+
+#outerBound4{
+    padding-top: 0px;
+    height: 180px;
+}
+#outerBound5{
+    padding-top: 0px;
+    height: 130px;
+}
+.inputBox{
+    text-align: center;
+    outline: none;
+    
+}
+.inputBox input{
+    height: 45px;
+    cursor: crosshair;
+    background-color: rgb(172, 172, 172);
+    border-radius: 2px;
+    width: 250px;
+    color: black ;
+    padding: 10px;
+    border: none ;
+    margin: 10px;
+    
+}
+.inputBox input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.inputBox input:focus{
+    outline: none;
+
+}
+.customButton{
+    border: none;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+#customButton2{
+    width: 250px;
+}
+
+.buttonPosition{
+    position: absolute;
+    left: 220px;
+}
+#buttonPosition2{
+    position: absolute;
+    left: 70px;
+}
+
+#main{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+#main input,button{
+    height: 70px;
+    width:75%;
+    border: 2px solid #111111;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background: transparent;
+    color: #111111;
+    border-radius: 1px;
+}
+#main input{
+    background-color: #111111;
+    color: white;
+}
+#main button{
+    width: 25%;
+    background: #111111;
+    color: rgb(104, 104, 104);
+    float: right;
+    border-left: 0px;
+}
+#main button:hover{
+    opacity: 0.8;
+}
+#main input:hover{
+    opacity: 0.8;
+}
+#main input:focus{
+    outline: none;
+}
+
+#output{
+    text-align: center;
+}
+div#baseContainer{
+    margin-left: 20%;
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    background-color: #0e0d0d;
+    max-width: 60%;
+    max-height: 100%;
+    padding-bottom: 30px;
+}
+
+
+@font-face {
+    font-family: 'ubuntu_bold';
+    src: url(../assets/fonts/Ubuntu-Bold.ttf);
+}
+
